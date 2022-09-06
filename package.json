@@ -1,0 +1,17 @@
+{
+  "name": "generate-eth-wallet",
+  "version": "1.0.0",
+  "description": "Generate a ETH private key and address.",
+  "main": "generate.ts",
+  "author": "CodeSchwert",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "generate": "ts-node generate.ts"
+  },
+  "dependencies": {
+    "ethereumjs-wallet": "^1.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
